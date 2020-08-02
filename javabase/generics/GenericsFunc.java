@@ -7,6 +7,7 @@ package javabase.generics;
 
 public class GenericsFunc {
     // 泛型方法 printArray
+
     public static <E> void printArray(E[] inputArray ){
         // 输出数组元素
         for ( E element : inputArray ){
